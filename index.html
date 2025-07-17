@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Future Web Design</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="logo"><i class="fas fa-globe"></i> FutureWeb</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Design Tomorrow's Web</h1>
+      <p>Innovative. Responsive. Animated.</p>
+      <a href="#features" class="cta-btn">Get Started</a>
+    </div>
+    <div class="hero-img">
+      <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800" alt="Hero Image" />
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features-section">
+    <h2 class="section-title">Why Choose Us?</h2>
+    <div class="features-grid">
+      <div class="feature-box">
+        <i class="fas fa-bolt fa-2x"></i>
+        <h3>Fast Performance</h3>
+        <p>Lightning-fast loading and animations for a smooth user experience.</p>
+      </div>
+      <div class="feature-box">
+        <i class="fas fa-mobile-alt fa-2x"></i>
+        <h3>Responsive Design</h3>
+        <p>Looks stunning on all screen sizes and devices.</p>
+      </div>
+      <div class="feature-box">
+        <i class="fas fa-magic fa-2x"></i>
+        <h3>Modern Effects</h3>
+        <p>Powered by GSAP for interactive and creative visuals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials-section">
+    <h2 class="section-title">What People Say</h2>
+    <div class="testimonial">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client 1" />
+      <blockquote>“Their designs helped us stand out from competitors.”</blockquote>
+      <cite>— Sarah Johnson</cite>
+    </div>
+    <div class="testimonial">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client 2" />
+      <blockquote>“Highly professional, reliable, and modern UI.”</blockquote>
+      <cite>— Alex Turner</cite>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2 class="section-title">Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>© 2025 FutureWeb by Madina Elyasi | Built with 💙 GSAP</p>
+  </footer>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
